@@ -5,7 +5,7 @@ function NavBar(props) {
 
   let getLinks = links.map((link) => {
     return (
-      <a key={link} href="#link">
+      <a key={link} href={`#${link}`}>
         {link}
       </a>
     );
